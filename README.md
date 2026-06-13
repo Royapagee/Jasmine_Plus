@@ -1,4 +1,4 @@
-# Jasmine_Pic
+# Jasmine_Plus
 
 基于大名鼎鼎的Typecho主题Jsamine的二次修改版本，新增了一种展示样式，标题右上角展示，banner图常驻并随机切换功能
 
