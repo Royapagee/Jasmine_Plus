@@ -2,6 +2,8 @@
 
 Jasmine_Plus 是基于 Typecho 极简主义经典主题 **Jasmine**（原作者 Kent Liao）的二次开发修改版本。本主题在保留原版精致、克制、黑白留白的审美风格基础上，加入了更多实用的功能定制，旨在为内容创作者提供更加生动且高度自定义的博客体验。
 
+示例网站：[森罗幻想](https://www.roysgensokyo.space/)
+截图：<img width="1635" height="970" alt="image" src="https://github.com/user-attachments/assets/e7cc1296-efd6-40ce-adbe-b5d099b63ca0" />
 
 ## 🚀 功能特性
 
