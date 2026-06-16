@@ -2,6 +2,8 @@
 
 Jasmine_Plus 是基于 Typecho 极简主义经典主题 **Jasmine**（原作者 Kent Liao）的二次开发修改版本。本主题在保留原版精致、克制、黑白留白的审美风格基础上，加入了更多实用的功能定制，旨在为内容创作者提供更加生动且高度自定义的博客体验。
 
+**本分支为根据个人需要，针对PJAX优化的版本，如不使用此特性，需自行切换到main分支！**
+
 | 示例网站：[森罗幻想](https://www.roysgensokyo.space/) |
 | --- |
 | <img width="1635" height="970" alt="image" src="https://github.com/user-attachments/assets/e7cc1296-efd6-40ce-adbe-b5d099b63ca0" style="max-width: 720px; width: 100%; height: auto;" /> |
@@ -24,10 +26,7 @@ Jasmine_Plus 是基于 Typecho 极简主义经典主题 **Jasmine**（原作者 
 
 ## 🛠️ 安装步骤
 
-1. **下载主题**：将本项目克隆或下载压缩包解压至本地。
-   ```bash
-   git clone https://github.com/Royapagee/JasminePlus.git
-   ```
+1. **下载主题**：将本项目的你需要的分支克隆或下载压缩包解压至本地。
 2. **上传至服务器**：将解压后的文件夹重命名为 `Jasmine`，并上传到 Typecho 博客安装目录下的 `usr/themes/` 目录中。
 3. **启用主题**：登录 Typecho 后台，点击 **“控制台” -> “外观”**，找到 **JasminePlus** 主题，点击 **“启用”**。
 4. **后台配置**：在主题设置中配置分类数量等核心选项。
