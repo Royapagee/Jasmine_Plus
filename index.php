@@ -2,9 +2,9 @@
 /**
  * <p>黑白之间，留白生诗。简至奢侈，静若自持。罗伊基于 Kent Liao 原版的二次修改版本，新增了一种展示样式，标题右上角展示，banner图常驻并随机切换功能<p/>
  *
- * <a href="https://gitee.com/LiaoChunping/Jasmine/wikis/Home"target="_blank">原版文档</a> | <a href="https://gitee.com/LiaoChunping/Jasmine/repository/archive/main.zip"target="_blank">下载</a>
+ * <a href="https://gitee.com/LiaoChunping/Jasmine/wikis/Home"target="_blank">原版文档</a> | <a href="https://github.com/Royapagee/Jasmine_Plus"target="_blank">修改版文档</a>
  *
- * @package Jasmine_Pic
+ * @package JasminePlus
  * @author 罗伊
  * @version 3.1.0
  * @link https://www.roysgensokyo.space/
@@ -42,5 +42,4 @@ $this->need('template-parts/header.php');
         </div>
     </div>
 <?php $this->need('template-parts/right.php'); ?>
-
 <?php $this->need('template-parts/footer.php'); ?>
