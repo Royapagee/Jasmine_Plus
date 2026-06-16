@@ -4,7 +4,6 @@
  *
  * <a href="https://gitee.com/LiaoChunping/Jasmine/wikis/Home"target="_blank">原版文档</a> | <a href="https://gitee.com/LiaoChunping/Jasmine/repository/archive/main.zip"target="_blank">下载</a>
  *
- * @package JasminePlus
  * @author 罗伊
  * @version 3.1.0
  * @link https://www.roysgensokyo.space/
@@ -42,4 +41,5 @@ $this->need('template-parts/header.php');
         </div>
     </div>
 <?php $this->need('template-parts/right.php'); ?>
+
 <?php $this->need('template-parts/footer.php'); ?>

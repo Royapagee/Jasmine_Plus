@@ -10,7 +10,7 @@
     }
     ?>
     <?php if ($thumbVal == '1'): ?>
-        <div class="card-body p-0 d-flex flex-column row-gap-2">
+        <div class="card-body p-0 d-flex flex-column row-gap-1">
             <h3 class="card-title fs-5 fw-normal" itemprop="headline">
                 <a href="<?php $this->permalink(); ?>"
                    title="<?php $this->title(); ?>"><?php $this->title(); ?></a>

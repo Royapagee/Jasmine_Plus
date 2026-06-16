@@ -2,7 +2,6 @@
 /**
  * Jasmine 主题
  *
- * @package JasminePlus
  * @author Kent Liao
  * @version 1.0.0
  * @link https://www.sanji.one

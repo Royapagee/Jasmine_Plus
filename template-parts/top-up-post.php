@@ -17,7 +17,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
         ?>
         <article class="card border-0 py-3 col-12" itemscope="itemscope" itemtype="http://schema.org/Article">
             <?php if ($thumbVal == '1'): ?>
-                <div class="card-body p-0 d-flex flex-column row-gap-2">
+                <div class="card-body p-0 d-flex flex-column row-gap-1">
                     <h3 class="card-title fs-4 fw-normal" itemprop="headline">
                         <a href="<?php $topUpPost->permalink(); ?>" title="<?php $topUpPost->title(); ?>" aria-label="<?php $topUpPost->title(); ?>">
                             <?php $topUpPost->title(); ?>
