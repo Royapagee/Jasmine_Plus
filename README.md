@@ -34,7 +34,7 @@ Jasmine_Plus 是基于 Typecho 极简主义经典主题 **Jasmine**（原作者 
 
 ## 📄 许可证
 
-本项目基于 [GNU General Public License v3.0](file:///d:/Code/Github/Jasmine_Plus/LICENSE) 开源协议授权，您可以自由地使用、修改和分发，但必须保留原作者的版权声明并以相同协议开源。
+本项目基于 **GNU General Public License v3.0** 开源协议授权，您可以自由地使用、修改和分发，但必须保留原作者的版权声明并以相同协议开源。
 
 * 原作者：[Kent Liao](https://gitee.com/LiaoChunping/Jasmine)
 * 二次开发者：[罗伊](https://www.roysgensokyo.space/)
