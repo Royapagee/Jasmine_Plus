@@ -46,6 +46,7 @@ if (is_dir($bannerDir)) {
                href="javascript:changeBsTheme()">
                 <i class="ti ti-sun-moon px-3 py-1 rounded fs-5"></i>
             </a>
+
             <button class="navbar-toggler border-0 pe-0" type="button" data-bs-toggle="offcanvas" href="#mobile-navbar" role="button" aria-controls="mobile-navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>

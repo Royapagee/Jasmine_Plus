@@ -1,8 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
-<div class="container-fluid p-3 mt-0 ">
-    <div id="home-player"></div>
-</div>
+
 
 <div class="container-fluid p-4 mt-0 border-bottom border-light-subtle">
     

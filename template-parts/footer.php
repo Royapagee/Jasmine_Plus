@@ -11,10 +11,15 @@
         <div class="col-12">
             <?php $this->options->customFooter(); ?>
         </div>
+        <div class="col-12">
+            备案号：<a href="https://beian.miit.gov.cn/">黔ICP备2025064169号</a>
+        </div>
     </div>
 </div>
 <script src="<?php $this->options->themeUrl('assets/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
 <script src="<?php $this->options->themeUrl('assets/main/main.js'); ?>"></script>
+<script src="<?php $this->options->themeUrl('assets/main/pjax.js'); ?>"></script>
+
 <?php $this->footer(); ?>
 
 </body>

@@ -289,15 +289,7 @@
                     throw new Error('PJAX container not found');
                 }
 
-                // 保存播放器 DOM（如果存在且已初始化）
-                var oldPlayer = document.getElementById('home-player');
-                var playerParent = null;
-                var playerNextSibling = null;
-                if (oldPlayer) {
-                    playerParent = oldPlayer.parentNode;
-                    playerNextSibling = oldPlayer.nextSibling;
-                    playerParent.removeChild(oldPlayer);
-                }
+
 
                 // 替换内容
                 curMiddle.innerHTML = newMiddle.innerHTML;
@@ -305,15 +297,7 @@
                     curRight.innerHTML = newRight.innerHTML;
                 }
 
-                // 恢复播放器 DOM
-                var newPlayerPlaceholder = document.getElementById('home-player');
-                if (oldPlayer) {
-                    if (newPlayerPlaceholder && newPlayerPlaceholder.parentNode) {
-                        newPlayerPlaceholder.parentNode.replaceChild(oldPlayer, newPlayerPlaceholder);
-                    } else if (playerParent) {
-                        playerParent.insertBefore(oldPlayer, playerNextSibling);
-                    }
-                }
+
 
                 // 执行新容器中的内联脚本
                 executeScripts(curMiddle);
@@ -347,10 +331,7 @@
                     initPageComponents();
                 }
 
-                // 播放器初始化
-                if (typeof initHomePlayer === 'function') {
-                    initHomePlayer();
-                }
+
             })
             .catch(function (err) {
                 if (err.name === 'AbortError') {
@@ -418,30 +399,14 @@
                     throw new Error('PJAX container not found');
                 }
 
-                // 保存播放器
-                var oldPlayer = document.getElementById('home-player');
-                var playerParent = null;
-                var playerNextSibling = null;
-                if (oldPlayer) {
-                    playerParent = oldPlayer.parentNode;
-                    playerNextSibling = oldPlayer.nextSibling;
-                    playerParent.removeChild(oldPlayer);
-                }
+
 
                 curMiddle.innerHTML = newMiddle.innerHTML;
                 if (newRight && curRight) {
                     curRight.innerHTML = newRight.innerHTML;
                 }
 
-                // 恢复播放器
-                var newPlayerPlaceholder = document.getElementById('home-player');
-                if (oldPlayer) {
-                    if (newPlayerPlaceholder && newPlayerPlaceholder.parentNode) {
-                        newPlayerPlaceholder.parentNode.replaceChild(oldPlayer, newPlayerPlaceholder);
-                    } else if (playerParent) {
-                        playerParent.insertBefore(oldPlayer, playerNextSibling);
-                    }
-                }
+
 
                 executeScripts(curMiddle);
                 if (curRight) executeScripts(curRight);
@@ -460,9 +425,7 @@
                 if (typeof initPageComponents === 'function') {
                     initPageComponents();
                 }
-                if (typeof initHomePlayer === 'function') {
-                    initHomePlayer();
-                }
+
             })
             .catch(function (err) {
                 if (err.name === 'AbortError') return;
