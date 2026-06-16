@@ -2,16 +2,17 @@
 
 Jasmine_Plus 是基于 Typecho 极简主义经典主题 **Jasmine**（原作者 Kent Liao）的二次开发修改版本。本主题在保留原版精致、克制、黑白留白的审美风格基础上，加入了更多实用的功能定制，旨在为内容创作者提供更加生动且高度自定义的博客体验。
 
-示例网站：[森罗幻想](https://www.roysgensokyo.space/)
-截图：<img width="1635" height="970" alt="image" src="https://github.com/user-attachments/assets/e7cc1296-efd6-40ce-adbe-b5d099b63ca0" />
+| 示例网站：[森罗幻想](https://www.roysgensokyo.space/) |
+| --- |
+| <img width="1635" height="970" alt="image" src="https://github.com/user-attachments/assets/e7cc1296-efd6-40ce-adbe-b5d099b63ca0" style="max-width: 720px; width: 100%; height: auto;" /> |
 
 ## 🚀 功能特性
 
 - 🎨 **极简自适应设计**：基于 Bootstrap 5 构建，完美适配桌面与移动端设备。支持一键进行**深色/浅色（Dark/Light）模式**切换。
-- 🖼️ **常驻随机 Banner**：支持在首页顶部自动轮播自定义 Banner 图。只需将图片丢入指定目录，系统即可在每次访问时随机呈现。
+- 🖼️ **常驻随机 Banner图**：支持在首页顶部自动轮播自定义 Banner 图。只需将图片丢入指定目录，系统即可在每次访问时随机呈现。
 - 📝 **双重文章样式**：
-  - **经典模式（Default）**：适合常规技术、长文写作，支持自动生成文章目录（TOC）、分类、标签展示。
-  - **微语/动态模式（Moment）**：适合发表简短感悟或日常动态，以类似微博、朋友圈的无标题头像气泡流形式展示。
+  - **经典模式**：适合常规技术、长文写作，支持自动生成文章目录（TOC）、分类、标签展示。
+  - **说说模式**：适合发表简短感悟或日常动态，以类似微博、朋友圈的无标题头像气泡流形式展示。
 - 📸 **灵活的多重缩略图**：可通过自定义字段自由配置：
   - 无缩略图模式。
   - 单张图片缩略图（在桌面端右侧展示，移动端隐藏）。
